@@ -31,4 +31,5 @@ android {
 
 dependencies {
     implementation project(':assists')
+    implementation 'com.eclipsesource.j2v8:j2v8:6.2.1'
 }
