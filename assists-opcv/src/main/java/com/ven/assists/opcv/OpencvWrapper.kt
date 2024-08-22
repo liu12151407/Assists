@@ -1,13 +1,10 @@
-﻿package com.ven.assists_opcv
+﻿package com.ven.assists.opcv
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import com.blankj.utilcode.util.ActivityUtils
 import com.blankj.utilcode.util.LogUtils
 import com.ven.assists.Assists
-import com.ven.assists.AssistsServiceListener
-import com.ven.assists.ScreenCaptureService
-import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.launch
 import org.opencv.android.OpenCVLoader
 import org.opencv.android.Utils

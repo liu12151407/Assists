@@ -1,12 +1,7 @@
-package com.ven.assists_opcv
+package com.ven.assists.opcv
 
-import android.app.Activity
-import android.app.Activity.RESULT_OK
 import android.app.Application
-import android.content.Intent
-import android.os.Bundle
 import androidx.core.content.FileProvider
-import com.blankj.utilcode.util.LogUtils
 
 class AssistsOpencvFileProvider : FileProvider() {
     override fun onCreate(): Boolean {

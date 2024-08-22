@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.ven.assists_opcv'
+    namespace 'com.ven.assists.opcv'
     compileSdk 34
 
     defaultConfig {
