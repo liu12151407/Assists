@@ -11,9 +11,7 @@ import com.ven.assists.simple.App
 import com.ven.assists.simple.OverManager
 import com.ven.assists.stepper.Step
 import com.ven.assists.stepper.StepCollector
-import com.ven.assists.stepper.StepData
 import com.ven.assists.stepper.StepImpl
-import com.ven.assists.stepper.StepManager
 
 /**
  * ScrollContacts为该业务场景的分类，作用是可在执行过程按按业务分类来执行

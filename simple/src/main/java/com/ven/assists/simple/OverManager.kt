@@ -2,29 +2,19 @@ package com.ven.assists.simple
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.Bitmap
 import android.graphics.Color
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
 import android.view.accessibility.AccessibilityEvent
-import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.core.widget.NestedScrollView
-import com.blankj.utilcode.util.ActivityUtils
 import com.blankj.utilcode.util.BarUtils
-import com.blankj.utilcode.util.FileIOUtils
-import com.blankj.utilcode.util.ImageUtils
-import com.blankj.utilcode.util.LogUtils
-import com.blankj.utilcode.util.PathUtils
-import com.blankj.utilcode.util.ResourceUtils
 import com.blankj.utilcode.util.ScreenUtils
 import com.blankj.utilcode.util.SizeUtils
 import com.blankj.utilcode.util.ThreadUtils
 import com.blankj.utilcode.util.TimeUtils
-import com.bumptech.glide.Glide
 import com.ven.assists.Assists
 import com.ven.assists.Assists.click
 import com.ven.assists.Assists.containsText
@@ -34,7 +24,6 @@ import com.ven.assists.Assists.log
 import com.ven.assists.AssistsServiceListener
 import com.ven.assists.AssistsWindowManager
 import com.ven.assists.simple.databinding.ViewMainOverBinding
-import com.ven.assists.simple.databinding.ViewMatchImageBinding
 import com.ven.assists.simple.step.AntForestEnergy
 import com.ven.assists.simple.step.GestureBottomTab
 import com.ven.assists.simple.step.GestureScrollSocial
@@ -45,19 +34,9 @@ import com.ven.assists.simple.step.StepTag
 import com.ven.assists.stepper.StepListener
 import com.ven.assists.stepper.StepManager
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.flowOn
-import kotlinx.coroutines.flow.onCompletion
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.opencv.android.Utils
-import org.opencv.core.Core
-import org.opencv.core.Mat
-import org.opencv.core.Rect
-import org.opencv.imgproc.Imgproc
 
 object OverManager : StepListener {
     @SuppressLint("StaticFieldLeak")

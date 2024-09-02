@@ -1,28 +1,17 @@
 package com.ven.assists.simple
 
-import android.app.WallpaperManager
 import android.content.Intent
-import android.graphics.BitmapFactory
-import android.graphics.Color
 import android.os.Bundle
 import android.view.KeyEvent
 import android.view.accessibility.AccessibilityEvent
 import androidx.appcompat.app.AppCompatActivity
 import com.blankj.utilcode.util.BarUtils
-import com.blankj.utilcode.util.LogUtils
 import com.ven.assists.Assists
-import com.ven.assists.Assists.getNodes
-import com.ven.assists.Assists.log
 import com.ven.assists.AssistsService
 import com.ven.assists.AssistsServiceListener
 import com.ven.assists.simple.databinding.ActivityMainBinding
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.launch
-import java.io.IOException
 
 
 class MainActivity : AppCompatActivity(), AssistsServiceListener {

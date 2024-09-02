@@ -10,7 +10,6 @@ import com.ven.assists.simple.OverManager
 import com.ven.assists.stepper.Step
 import com.ven.assists.stepper.StepCollector
 import com.ven.assists.stepper.StepImpl
-import com.ven.assists.stepper.StepManager
 
 class OpenWechat : StepImpl() {
     override fun onImpl(collector: StepCollector) {
