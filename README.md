@@ -1,3 +1,6 @@
+说明文档
+https://github.com/ven-coder/Assists?tab=readme-ov-file#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B
+
 # Assists v3.1.0
 Android无障碍服务（AccessibilityService）开发框架，快速开发复杂自动化任务、远程协助、监听等
 ***
