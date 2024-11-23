@@ -169,9 +169,10 @@ StepManager.execute(OpenWechat::class.java, 1, isBegin = true)
 
 ## 有问题欢迎反馈交流（微信群二维码失效可以加我拉进群）
 
-| 交流群 | 个人微信 |
+| 交流群| 个人微信 |
 |:---------:|:-----------:|
-| <img src="https://github.com/user-attachments/assets/9d1beb7a-f506-4197-bcac-12f8021b891f" width=200/>    | <img src="https://github.com/ven-coder/Assists/assets/27257149/542e51d1-9f22-4381-b011-618fc0cef959" width=200/>
+| <img src="https://github.com/user-attachments/assets/2b69580b-d127-403d-a297-bb450eb250bb" width=200/> | <img src="https://github.com/user-attachments/assets/49378ec3-71a2-4a5e-8510-bec4ec8d915e" width=200/>
+1群已满200人，要进1群可加我拉进1群
 
 ## 我的付费社群
 付费社群提供的服务：
